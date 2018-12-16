@@ -1,6 +1,6 @@
-# Gatsby Starter MDX Basic
+# Gatsby Starter MDX plus TailwindCSS
 
-View this starter [live on Netlify](https://gatsby-starter-mdx-basic.netlify.com/)
+~~View this starter~~
 
 This starter build MDX support into the
 [gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default). Its
