@@ -5,7 +5,12 @@ export default () => (
   <StaticQuery
     query={graphql`
       {
-        allMdx {
+        allMdx (
+          sort: {
+            fields: [frontmatter___sort]
+            order: ASC
+          }
+        ){
           edges {
             node {
               fields {
