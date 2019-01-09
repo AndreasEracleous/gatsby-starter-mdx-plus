@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-mdx-basic",
-  "description": "Gatsby starter MDX basic",
-  "version": "1.0.0",
-  "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+  "name": "gatsby-starter-mdx-plus",
+  "description": "Gatsby MDX starter with markdown images, tailwind css and semi sticky auto generated navigation",
+  "version": "1.0.1",
+  "author": "Tim Gilpin",
   "dependencies": {
     "@mdx-js/mdx": "^0.16.6",
     "@mdx-js/tag": "^0.16.6",
@@ -40,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/christopherbiscardi/gatsby-starter-mdx-basic"
+    "url": "https://github.com/tjgilpin/gatsby-starter-mdx-plus"
   }
 }
