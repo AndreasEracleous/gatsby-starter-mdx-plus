@@ -2,13 +2,14 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, children }) => (
   <div
     style={{
       background: 'rebeccapurple',
       marginBottom: '1.45rem',
     }}
   >
+    {children}
     <div
       style={{
         margin: '0 auto',

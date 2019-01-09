@@ -25,8 +25,9 @@ const Layout = ({ children }) => (
           p: props => <p {...props} className="leading-normal my-6" />,
         }}
       >  
-        <Navigation />
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title}>
+          <Navigation />
+        </Header>
         <div
           style={{
             margin: '0 auto',
