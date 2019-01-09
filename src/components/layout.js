@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import { MDXProvider } from "@mdx-js/tag";
 
 import Header from './header'
 import Navigation from './navigation'
@@ -18,7 +19,12 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <MDXProvider
+        components={{        
+          h2: props => <h2 {...props} className="uppercase pt-3 text-4xl leading-none _add_tracking_tightish" />,
+          p: props => <p {...props} className="leading-normal my-6" />,
+        }}
+      >  
         <Navigation />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
@@ -31,7 +37,7 @@ const Layout = ({ children }) => (
         >
           {children}
         </div>
-      </>
+      </MDXProvider>    
     )}
   />
 )
