@@ -1,4 +1,4 @@
-# Gatsby Starter MDX plus TailwindCSS
+# Gatsby Starter MDX +
 
 ~~View this starter~~
 
